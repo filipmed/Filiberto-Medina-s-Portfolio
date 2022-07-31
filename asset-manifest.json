@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Filiberto-Medina-s-Portfolio/static/css/main.da28e8fe.css",
+    "main.js": "/Filiberto-Medina-s-Portfolio/static/js/main.13b4661b.js",
+    "static/js/787.a2cb61a6.chunk.js": "/Filiberto-Medina-s-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Drumset.png": "/Filiberto-Medina-s-Portfolio/static/media/Drumset.5c98f367dba383c0fc23.png",
+    "static/media/Dice.png": "/Filiberto-Medina-s-Portfolio/static/media/Dice.3470aa85280c1b0e80da.png",
+    "static/media/Simon_Says.png": "/Filiberto-Medina-s-Portfolio/static/media/Simon_Says.2292cd2efbeaccddc76c.png",
+    "index.html": "/Filiberto-Medina-s-Portfolio/index.html",
+    "main.da28e8fe.css.map": "/Filiberto-Medina-s-Portfolio/static/css/main.da28e8fe.css.map",
+    "main.13b4661b.js.map": "/Filiberto-Medina-s-Portfolio/static/js/main.13b4661b.js.map",
+    "787.a2cb61a6.chunk.js.map": "/Filiberto-Medina-s-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da28e8fe.css",
+    "static/js/main.13b4661b.js"
+  ]
+}
