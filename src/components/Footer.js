@@ -9,10 +9,10 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-        <Instagram/>
-        <Twitter/>
-        <Facebook/>
-        <LinkedIn/>
+      <a href="https://www.instagram.com/4ilip.js/"><Instagram/></a>
+      <a href="https://twitter.com/Filiber25626466"><Twitter/></a>
+      <a href="https://www.facebook.com/filiberto.medina.1238/"><Facebook/></a>
+      <a href="https://www.linkedin.com/in/filiberto-medina-98a2b3184/"><LinkedIn/></a>
         
         </div>
         <p>&copy;2022 Filiberto Medina's Portfolio</p>

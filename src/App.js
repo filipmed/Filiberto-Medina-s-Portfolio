@@ -8,6 +8,7 @@ import Projects from './pages/Projects.js'
 import Experience from './pages/Experience.js'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ProjectDisplay from "./pages/ProjectDisplay";
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
         <Routes>
           <Route path ="/" element={<Home />}/>
           <Route path ="/projects" element={<Projects />}/>
-          <Route path ="/experience" element={<Experience />}/>
+          <Route path="/project/:id" element={<ProjectDisplay />} />
+         <Route path ="/experience" element={<Experience />}/>
         </Routes>
         <Footer/>
       </Router>
