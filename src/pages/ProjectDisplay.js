@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/ProjectDisplay.css";
+import Typewriter from 'typewriter-effect';
 
 function ProjectDisplay() {
   const { id } = useParams();
@@ -12,7 +13,16 @@ function ProjectDisplay() {
       <h1> {project.name}</h1>
       <img src={project.image} />
       <p>
-        <b>Skills:{project.Skills}</b> {project.skills}
+      <Typewriter
+         options={{delay:2}}
+         onInit ={(typewriter)=>{
+            
+            typewriter
+            .typeString("Technologies Used:")
+            .start()
+          }}
+        />
+        <b>{project.Skills}</b> 
       </p>
        
       <GitHubIcon onClick={()=>(  //code line 18-19 is used to make github icon give links to projects

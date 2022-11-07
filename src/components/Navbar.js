@@ -20,7 +20,7 @@ function Navbar() {
                 </button>
         </div>
         <div className='links'>
-            <Link to="/">Home</Link>
+            <Link to="/"><a className='tag'>Home</a></Link>
             <Link to="/projects">Projects</Link>
             <Link to="/experience">Experience</Link>
             
